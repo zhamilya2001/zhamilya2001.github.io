@@ -1,0 +1,69 @@
+header{
+	width :100%;
+	height : 100px;
+	position: fixed;/* defines a positioning method */
+	background-color: white;
+
+	
+}
+#logo{
+	height: 50px;
+	margin: 25px;/*create space around contene,outside*/
+	float: left;
+	margin-top: 0px;
+}
+#one{
+	width:100%;
+	height:800px;
+}
+
+#menu{
+list-style-type: none;
+margin: 40px;/*create space around contene,outside*/
+height: 20px;
+
+	
+}
+
+#menu a {
+	text-decoration:none;
+	text-align:center;/* alignment of text */
+	color: black;
+	display: inline-block;
+	border-bottom: 5px solid black;
+	padding: 10px 15px;/* create space around an element's content , inside */
+}
+#menu a:hover{
+	background-color: black;
+	color:white;
+}
+
+#menu li{
+	display:inline;
+}
+body{
+	margin: 0px;/*create space around contene,outside*/
+	padding: 0px;/* create space around an element's content , inside */
+}
+ .text {
+	 text-align:center;/* alignment of text */
+	 padding-top:150px;/* create space around an element's content , inside */
+	 
+ }
+.button {
+  background-color: white;
+  border-style: solid;
+
+  color: black;
+  padding: 10px 25px;/* create space around an element's content , inside */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+
+}
+a:hover {
+	background-color: black;
+	color: white;
+}
